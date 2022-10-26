@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Serve</title>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+footer {
+        text-align: center;
+        background-color: red;
+    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: purple; 
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Serve</h1>
+        <div class="navbar">
+  <a href="#Deals">Payment</a>
+  <div class="subnav">
+    <button class="subnavbtn">Plan <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#6G Unlimited">6G Unlimited</a>
+      <a href="#Home & Internet">Home & Internet</a>
+      <a href="#Military & Veterans">Military & Veterans</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Support <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#TroubleShoot">TroubleShoot</a>
+      <a href="#Replacement">Replacement</a>
+      <a href="#Trade-in">Trade-in</a>
+      <a href="#Feedback">Feedback</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Deals <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#Apple">Apple</a>
+      <a href="#Samsung">Samsung</a>
+      <a href="#Google Pixel">Google Pixel</a>
+      <a href="#Z Flip">Z Flip</a>
+    </div>
+  </div>
+</div>
+</header>
+<div style="padding:0 16px">
+</div>
+<div class="row">
+  <div class="column">
+    <img src="anh-nhat-yqcloMb3Abw-unsplash.jpg" alt="Snow" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="aleksandr-popov-p1vPC78w5_A-unsplash.jpg" alt="Forest" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="people-g7edb786f9_1280.png" alt="Mountains" style="width:95%">
+  </div>
+</div>
+
+<footer>
+&copy; Copyright 2022 Serve</footer>
+</body>
+</html>
